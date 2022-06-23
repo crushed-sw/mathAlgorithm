@@ -1,19 +1,19 @@
 #include <iostream>
-#include "complex.hpp"
+#include "../include/complex.hpp"
 using namespace std;
 
 int main() {
     int i;
     double a, b;
-    complex c1, c2, c3, c, p[5];
+    Complex c1, c2, c3, c, p[5];
     cin >> a >> b;
-    c1 = complex(a, b);
+    c1 = Complex(a, b);
     cout << "c1 = " << c1 << endl;
     cin >> a >> b;
-    c2 = complex(a, b);
+    c2 = Complex(a, b);
     cout << "c2 = " << c2 << endl;
     cin >> a >> b;
-    c3 = complex(a, b);
+    c3 = Complex(a, b);
     cout << "c3 = " << c3 << endl;
 
     cout << "c1 + c2 = " << c1 + c2 << endl;
